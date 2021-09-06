@@ -1,0 +1,22 @@
+Pour setup un projet github
+Dans un permier temps:
+-initier un projet sur github
+-creer un folder destiné à acceuillir le projet
+-copier to the clipboard depuis "code" le projet sous format https
+-modifier son projet
+-Pour push un file (par exemple le READMEFILE) il faut:
+	-git status
+	-git diff README.md
+	-git add README.md
+	-git status
+	-git commit -m "Comment(par exemple 'updated the readme file')"
+	-git log --oneline
+	-git push origin main(ou master ca depend)
+
+Si erreur authentification:
+	-créer sur github clef ssh rsa
+	-copier le ssh du project(à coté du https download)
+	-git remote set-url origin git@github...(ssh)
+
+Pull un repository pour maintenir à jour le local computer:
+				-git pull origin main
