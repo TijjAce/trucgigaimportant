@@ -1,0 +1,6 @@
+
+A mettre dans le code en cas d'erreur du Pip de Python
+
+
+import sys
+sys.path.insert(0, "pathDesPackagesInstallés")
